@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common styles */
+.merriweather-font{
+    font-family: 'Merriweather', serif;
+}
+.inter-font{
+    font-family: 'Inter', sans-serif;
+}
+.red-color{
+    color: red;
+}
+/* header section  */
+.banner{
+    width: 1320px;
+    height: 600px;
+    margin: 40px auto;
+    background-image: url(../Banner\ Image.png); 
+    
+}
+.color-overlay{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+header h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+header h1{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+/* categories section  */
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.categories h1{
+    font-size: 88px;
+    font-weight: 700;
+    margin: 80px 0 48px 0;
+}
+.categories p{
+    font-size: 24px;
+font-weight: 500;
+}
+.categories h2{
+    font-size: 48px;
+font-weight: 700;
+margin:16px 0 48px 0;
+}
