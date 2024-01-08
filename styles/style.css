@@ -13,6 +13,12 @@
     font-size: 72px;
     font-weight: 900;
 }
+.secondary-title{
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
 .red-color{
     color: red;
 }
@@ -23,6 +29,13 @@
 .title-style{
     font-size: 24px;
     font-weight: 500;
+}
+.gray-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 16px 0 43px 0;
 }
 /* header section  */
 .banner{
@@ -132,12 +145,6 @@ header h1{
 .offer-section h3{
     margin-bottom: 16px;
 }
-.offer-section h1{
-    font-size: 48px;
-    font-weight: 900;
-    text-transform: capitalize;
-    margin-bottom: 22px;
-}
 .offer-description{
     
     width: 393px;
@@ -151,13 +158,6 @@ header h1{
     border: 15px solid #F00;
     padding: 30px;
     margin: 0 118px 0 70px;
-}
-.gray-description{
-    color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    margin: 16px 0 43px 0;
 }
 /* Holidays Sale 50% section  */
 .holidays-sale-section{
@@ -173,8 +173,7 @@ header h1{
     margin-top: 433px;
 }
 .holidays-image-1, .holidays-image-3,.holidays-image-4{
-    position: absolute;
-    
+    position: absolute;  
 }
 .holidays-image-1{
     top: 170px;
@@ -190,3 +189,16 @@ z-index: 2;
     right: 0px;
     top:0px;
 }
+/* Our Awesome Portfolio */
+.portfolio-section h3{
+ margin-bottom: 16px;
+}
+.portfolio-section p{
+ margin:0 0 48px 0;
+}
+.gifts-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+/* Subscribe Newsletter */
