@@ -234,3 +234,32 @@ z-index: 2;
     position: absolute;
     left: 720px;
 }
+/* footer section  */
+footer{
+    background: #070211;
+    color: white;
+    padding: 120px;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    margin: 0 auto;
+}
+hr{
+    width: 1320px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.15);  
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    gap: 24px;
+}
+#footer-des{
+    margin-bottom: 50px;
+}
+#rights-des{
+    margin-top: 50px;
+}
