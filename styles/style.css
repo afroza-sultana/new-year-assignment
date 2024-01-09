@@ -263,3 +263,11 @@ hr{
 #rights-des{
     margin-top: 50px;
 }
+.contact-info{
+    display: flex;
+    flex-direction: column; 
+    padding-right: 130px;  
+}
+.fa-solid{
+    padding-right: 16px;
+}
